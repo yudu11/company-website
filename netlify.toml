@@ -1,0 +1,10 @@
+[build]
+  # Set the build command to install dependencies and build the site
+  command = "gem update --system 3.3.22 && bundle install && bundle exec jekyll build"
+  # Specify the directory where Netlify will look for the output
+  publish = "_site"
+
+[build.environment]
+  # Specify the Ruby version to use during the build process
+  RUBY_VERSION = "2.7.2"
+  RUBYGEMS_VERSION = "3.3.22"
