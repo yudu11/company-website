@@ -148,7 +148,7 @@ For bug reports, follow the provided template.
 To set up your environment to develop this theme, clone this repo or your fork.
 
 ```sh
-$ git clone https://github.com/raviriley/agency-jekyll-theme.git
+$ git clone https://github.com/yudu11/company-website.git
 $ cd agency-jekyll-theme
 ```
 
